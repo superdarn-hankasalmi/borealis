@@ -1,0 +1,27 @@
+# Restricted frequency table for Hankasalmi radar.
+# License NRO MUUT0399228 effective 19/02/2019
+# allowed frequencies are as follows
+# 9040 - 9140kHz
+# 9900 - 9995kHz
+# 11075 - 11175kHz
+# 11550 - 11600kHz
+# 13440 - 13510kHz
+# 13870 - 13900kHz
+# 16210 - 16380kHz
+# 18030 - 18052kHz
+# 19415 - 19680kHz
+# 19800 - 19990kHz
+# 10kHz is used a guard buffer for the restrictions. eg 9050 - 9130kHz range
+default=13490
+
+8000 9050
+9130 9890
+10005 11065
+11165 11560
+11590 13430
+13500 13860
+13890 16220
+16370 18040
+18042 19395
+19670 19810
+19980 22000
